@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.Main {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(160, 160, 253);
+  margin: 0 auto;
+}
+.Header {
+  text-align: center;
+  font-size: 25px;
+}
+.Input {
+  margin: 25px auto;
+  width: 35%;
+}
+.Input input {
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+}
+.Each-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  background-color: rgb(188, 219, 209);
+}
+.Add {
+  padding: 12px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  margin: 20px auto;
+}
+.Delete, .Important {
+  cursor: pointer;
+  padding: 10px 12px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: azure;
+  border: none;
+}
